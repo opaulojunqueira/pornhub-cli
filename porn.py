@@ -2,10 +2,8 @@ from PySimpleGUI import PySimpleGUI as sg
 from pornhub_api import PornhubApi
 import webbrowser
 
-# Api Client PornHub
 api = PornhubApi()
 
-# Layout
 sg.theme('Black')
 menu_def = [['Help', ['GitHub', 'About']]]
 layout = [
@@ -18,10 +16,9 @@ layout = [
     [sg.Output(key='_log_', visible=False, size=(75, 25))]
 ]
 
-# Janela
 window = sg.Window('PornHub CLI | Videos Search', icon='./logo.ico').Layout(layout)
 sg.ChangeLookAndFeel('black')
-# Ler os eventos
+
 while True:
     eventos, valores = window.read()
     if eventos == sg.WINDOW_CLOSED:
