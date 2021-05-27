@@ -73,7 +73,3 @@ while True:
                 window.Element('_log_')._TKOut.output.bind(
                     "<Key>", lambda e: "break")
                 print('Title: ' + vid.title + '\nLink: ' + vid.url + '\n\n')
-    # if valores['senha'] == '159753':
-    #     print('[LOGIN] - Olá \n[LOGIN] - Logado com sucesso!')
-    # else:
-    #     print('[ERROR] Senha incorreta, tente novamente!')
