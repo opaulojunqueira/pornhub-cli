@@ -1,4 +1,4 @@
-# pornhub-videos-search
+# pornhub-cli
 Simple Python project. I used an unofficial API.
 
 This project is very simple. It was developed to study Python. I am new to this world. I used PySimpleGUI for development.
